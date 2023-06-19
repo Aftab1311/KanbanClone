@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
+import React from "react";
+
 import { RxDashboard } from "react-icons/rx";
 import { TbMessageDots } from "react-icons/tb";
 import { GrTask } from "react-icons/gr";

@@ -1,12 +1,8 @@
-import React, { useState, useRef } from "react";
+import React  from "react";
 import { MdOutlineEdit } from "react-icons/md";
 import { FiLink2 } from "react-icons/fi";
-import { BsFunnel } from "react-icons/bs";
-import { AiFillCaretDown } from "react-icons/ai";
-import { BsChevronDown } from "react-icons/bs";
 import { RiAddBoxLine } from "react-icons/ri";
 import { RiGroupLine } from "react-icons/ri";
-import { RxDividerVertical } from "react-icons/rx";
 import { FaEquals } from "react-icons/fa";
 import dots from "../Images/4dots.png";
 import pic1 from "../Images/Ellipse 12.png";
@@ -14,7 +10,7 @@ import pic2 from "../Images/Ellipse 13.png";
 import pic3 from "../Images/Ellipse 14.png";
 import pic4 from "../Images/Ellipse 15.png";
 import pic6 from "../Images/Ellipse 17.png";
-import Kanban from "./Kanban";
+
 const Dashboard = ({ sidebarOpen }) => {
   return (
     <div

@@ -1,12 +1,10 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { RiAddBoxLine } from "react-icons/ri";
 import { BsFolderMinus } from "react-icons/bs";
 import { BiCommentDots } from "react-icons/bi";
 import {
   DragDropContext,
   Draggable,
-  DraggableProvided,
-  DraggableStateSnapshot,
   Droppable,
 } from "react-beautiful-dnd";
 
@@ -37,8 +35,7 @@ const Card = ({ data }) => {
 };
 
 const Kanban = ({ sidebarOpen }) => {
-  const dragItem = useRef();
-  const dragOverItem = useRef();
+ 
   const [list, setList] = useState({
     toDo: [
       {
